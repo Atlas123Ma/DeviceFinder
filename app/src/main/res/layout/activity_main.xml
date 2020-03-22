@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+<Button
+    android:id="@+id/bt_start_blescan1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="start ble scan1"/>
+<Button
+    android:id="@+id/bt_stop_blescan1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="stop ble scan1"/>
+    <Button
+        android:id="@+id/bt_start_blescan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start ble scan2"/>
+    <Button
+        android:id="@+id/bt_stop_blescan2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="stop ble scan2" />
+</LinearLayout>
